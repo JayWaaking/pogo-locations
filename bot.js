@@ -154,6 +154,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 	break;
 		// !jmeredith
 		case 'jmeredith':
+		case 'thehouse':
 		bot.sendMessage({
 			to: channelID,
 			message: 'J Meredith Tatton House is on W North St., between the N Victoria St/W North and N Craig St./W North intersections, https://goo.gl/maps/gLwEVuSWcZS2'
