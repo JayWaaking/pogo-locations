@@ -185,7 +185,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		case 'riverside':
 		bot.sendMessage({
 			to: channelID,
-			message: 'bevs, broussard, childrenspark, elderfield, golfcourse, grovers, jameswilkins, memorialdrive, memorialvfw, pavillion, pumphouse, redriverside, riversideentrance, riversidestadium/ballpark, rvpark, tonkawa, zoo.'
+			message: 'bevs, broussard, childrenspark, elderfield, golfcourse, grovers, jameswilkins, jameslwilkins, memorialdrive, memorialvfw, pavillion, pumphouse, redriverside, riversideentrance, riversidestadium/ballpark, rvpark, tonkawa, zoo.'
 		});
 	break;
 		// !pumphouse
@@ -303,6 +303,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 	break;
 		// !jameswilkins
 		case 'jameswilkins':
+		case 'jameslwilkins':
 		bot.sendMessage({
 			to: channelID,
 			message: 'James L Wilkins is in the old cemetery on Vine St., between the Sabine/Vine and Trinity/Vine intersections, https://goo.gl/maps/Z4WsbU2YPvJ2'
