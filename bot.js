@@ -320,7 +320,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		case 'midtown':
 		bot.sendMessage({
 			to:channelID,
-			message: 'Midtown command list: \nbaptisttemple, cdm/childrensmuseum, celebration, dairytreet, finearts, firstpresby, fostercreek, fwc/familyworshipcenter, grace, guadalupe, healthdept/communitygarden, postoffice, pyramid, queencity, resurrection, sonrise, splashpad, stfrancis, uhv, unitarian/uu.'
+			message: 'Midtown command list: \nbaptisttemple, cdm/childrensmuseum, celebration, dairytreet, finearts, firstpresby, fostercreek, fwc/familyworshipcenter, gracelutheran, gracepresby, guadalupe, healthdept/communitygarden, postoffice, pyramid, queencity, resurrection, sonrise, splashpad, stfrancis, uhv, unitarian/uu.'
 		})
 	break;
 		//uhv
@@ -353,8 +353,15 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			message: 'WARNING! RESTRICTED GYM. DO NOT GO DURING SCHOOL HOURS. Celebration Church is at 3310 N Ben Jordan, https://goo.gl/maps/gjEPKLHaw7r'
 		});
 	break;
-		// !grace
-		case 'grace':
+		// !gracelutheran
+		case 'gracelutheran':
+		bot.sendMessage({
+			to: channelID,
+			message: 'Grace Lutheran Church is o Locust Ave, near the Navarro and Locust Ave intersection, https://goo.gl/maps/XFrAxEeB92G2'
+		});
+	break;
+		// !gracepresby
+		case 'gracepresby':
 		bot.sendMessage({
 			to: channelID,
 			message: 'Grace Presbyterian Church is at 3604 N Ben Jordan St., https://goo.gl/maps/jqPzh1yYXQR2'
