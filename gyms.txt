@@ -1,0 +1,188 @@
+downtown
+Downtown location commands list: \nbethlehem, cabeza, calvary, centro, clthurmond, deleon/plaza, gazebo, henderson, jjl, jmeredith, lallorona, levi, performingarts, robertandpauline/library, roundtop, salterchapel, soldiers, southernpacific, stp, westerner.
+levi
+Levi is at 402 E Power Ave, https://goo.gl/maps/qCrTVkfp56k
+cabeza
+Cabeza de Vaca and LaSalle Monument is by Power Avenue Warehouse at 402 E Power Ave, https://goo.gl/maps/AaRYkiKCsqS2
+robertpauline
+Robert and Pauline Clark House is at 317 N Main, https://goo.gl/maps/rPXZChf494A2
+library
+Robert and Pauline Clark House is at 317 N Main, https://goo.gl/maps/rPXZChf494A2
+performingarts
+Performing Arts is at 214 N Main, https://goo.gl/maps/BMgkj5xJQmP2
+deleon
+DeLeon Plaza is at the Historical marker in De Leon Plaza on the Main street side, https://goo.gl/maps/1F8zh2Qr37v
+plaza
+DeLeon Plaza is at the Historical marker in De Leon Plaza on the Main street side, https://goo.gl/maps/1F8zh2Qr37v
+soldier
+Soldiers is on the corner of Main and Constitution, https://goo.gl/maps/V9TyGLxHBZk
+soldiers
+Soldiers is on the corner of Main and Constitution, https://goo.gl/maps/V9TyGLxHBZk
+gazebo
+The Gazebo is in the middle of De Leon Plaza, https://goo.gl/maps/zjXuRMBJ5XE2
+roundtop
+Round Top is on the corner of Main and Juan Linn, https://goo.gl/maps/V1R7kB1FZSv
+jjl
+John Joseph Linn is on the corner of Bridge and Juan Linn, https://goo.gl/maps/tWpUEtfZfAC2
+southpacific
+Southern Pacific Railroad is at the end of Santa Rosa, the intersection of Santa Rosa and S Cameron, https://maps.app.goo.gl/8yeH2
+southernpacific
+Southern Pacific Railroad is at the end of Santa Rosa, the intersection of Santa Rosa and S Cameron, https://maps.app.goo.gl/8yeH2
+centro
+Centro Cristiano is at 208 N Mantz, https://goo.gl/maps/iNz4RioD4Ax
+clthurmond
+CL Thurmond is at 905 S Bridge, https://goo.gl/maps/3gkkLskGWi22
+bethlehem
+Bethlehem Baptist is at 1206 S Depot, https://goo.gl/maps/ihviFydbLGx
+salterchapel
+Salter Chapel is at 610 South Cameron St., https://goo.gl/maps/zHdzpy9Gw6t
+calvary
+Mt. Calvary Baptist Church is near the corner of S Navarro and E Water, https://goo.gl/maps/oSw5GnHummx
+henderson
+Henderson House is on W Power Ave and Moody (US-59T Buisness), https://goo.gl/maps/xVAqrHvydVC2
+hendersonhouse
+Henderson House is on W Power Ave and Moody (US-59T Buisness), https://goo.gl/maps/xVAqrHvydVC2
+jmeredith
+J Meredith Tatton House is on W North St., between the N Victoria St/W North and N Craig St./W North intersections, https://goo.gl/maps/gLwEVuSWcZS2
+thehouse
+J Meredith Tatton House is on W North St., between the N Victoria St/W North and N Craig St./W North intersections, https://goo.gl/maps/gLwEVuSWcZS2
+lallorona
+La Llorona is on E Guadalupe and N Main, https://goo.gl/maps/PfpLr9ZGpDu
+stp
+STP is on the corner of US Business 77 and Wolfram St., https://goo.gl/maps/DVi3PGdgxj52
+westerner
+WARNING! RESTRICTED GYM. POLICE POSSIBLE FOR TRESSPASSING. DON\'T GO.
+riverside
+bevs, broussard, childrenspark, elderfield, golfcourse, grovers, jameswilkins, jameslwilkins, memorialdrive, memorialvfw, pavillion, pumphouse, redriverside, riversideentrance, riversidestadium/ballpark, rvpark, tonkawa, zoo.
+pumphouse
+Pumphouse is at 100-146 Memorial Dr, Victoria, TX 77901, https://goo.gl/maps/YfcX5NB3BPn
+memorialvfw
+Memorial VFW is at 180-198 Memorial Dr, Victoria, TX 77901, https://goo.gl/maps/Kot2gVCwZFu
+zoo
+Texas Zoo is at 110 Memorial Dr., https://goo.gl/maps/szSGdagkJ3w
+riversidestadium
+Riverside Stadium is on Memorial Dr., near the intersection with W Red River, further in the parking lot, https://goo.gl/maps/PX6ebof9aR42
+ballpark
+Riverside Stadium is on Memorial Dr., near the intersection with W Red River, further in the parking lot, https://goo.gl/maps/PX6ebof9aR42
+memorialdrive
+Memorial Drive is on Memorial Dr., near the intersection with W Red River, closer to the street side, https://goo.gl/maps/4B41bVgwDQ22
+redriverside
+Riverside Park Sign is on Red River and Bluff, https://goo.gl/maps/uJZkwjpZ4Dq
+golfcourse
+Riverside Golf Course is at 302 Mc Cright Dr., https://goo.gl/maps/i2hDbifUKbL2
+grovers
+Grover\'s Bend is on Mc Cright and Lowry, https://goo.gl/maps/DZEsMbbDq8G2
+pavillion
+Grover\s Bend Pavillion is past Grover\'s Nemd gym, on Lowry Dr., https://goo.gl/maps/ZyjeebisZBp
+tonkawa
+Tonkawa Bank Vista of Mission Espiritu Santo is on Mc Cright, coming in from the Vine St. Riverside Park Entrance, https://goo.gl/maps/s9hGMGnjiUK2
+childrenspark
+Children\'s Park is on Mc Cright, coming in from the Vine St. Riverside Park entrance, Children\'s Park, https://goo.gl/maps/APxfTKsacxH2
+elderfield
+Elder Field is on Mc Cright, coming in from the Vine St. Riverside Park entrance, baseball field, https://goo.gl/maps/vX9LQ6hreLD2
+riversideentrance
+Riverside Park (Children\'s Park side) is on Mc Cright and Vine, https://goo.gl/maps/6z2BMZZ9KRH2
+broussard
+Broussard Field is off of Vine, near the Vine and Mc Cright intersection, https://goo.gl/maps/VGMyTXoJW1p
+bevs
+Bev\'s Garden is off of Vine, close to the Vine and Independence Dr. intersection. It\'s out in the field and you will have to walk to it, https://goo.gl/maps/ZnZgQVgp4uu
+rvpark
+RV Park is on Vine, https://goo.gl/maps/3qPQMYn71f92
+jameswilkins
+James L Wilkins is in the old cemetery on Vine St., between the Sabine/Vine and Trinity/Vine intersections, https://goo.gl/maps/Z4WsbU2YPvJ2
+jameslwilkins
+James L Wilkins is in the old cemetery on Vine St., between the Sabine/Vine and Trinity/Vine intersections, https://goo.gl/maps/Z4WsbU2YPvJ2
+midtown
+Midtown command list: \nbaptisttemple, cdm/childrensmuseum, celebration, dairytreet, finearts, firstpresby, fostercreek, fwc/familyworshipcenter, grace, guadalupe, healthdept/communitygarden, postoffice, pyramid, queencity, resurrection, sonrise, splashpad, stfrancis, uhv, unitarian/uu.
+uhv
+UHV is at 3007 N Ben Wilson, https://goo.gl/maps/qmRxQdnwzfT2
+uhvwest
+UHV is at 3007 N Ben Wilson, https://goo.gl/maps/qmRxQdnwzfT2
+pyramid
+Pyramid 3 is on 3007 N Ben Wilson, https://goo.gl/maps/egthnbnP2iE2
+pyramid3
+Pyramid 3 is on 3007 N Ben Wilson, https://goo.gl/maps/egthnbnP2iE2
+guadalupe
+Guadalupe Baptist is on 2601 N Ben Jordan, https://goo.gl/maps/fgRZVj3eNFE2
+celebration
+WARNING! RESTRICTED GYM. DO NOT GO DURING SCHOOL HOURS. Celebration Church is at 3310 N Ben Jordan, https://goo.gl/maps/gjEPKLHaw7r
+grace
+Grace Presbyterian Church is at 3604 N Ben Jordan St., https://goo.gl/maps/jqPzh1yYXQR2
+unitarian
+Unitarian Universalist Church is at 1701 E Crestwood Dr., https://goo.gl/maps/1J8dKUTpSDr
+uu
+Unitarian Universalist Church is at 1701 E Crestwood Dr., https://goo.gl/maps/1J8dKUTpSDr
+fwc
+Family Worship Center is at 501 Sam Houston Dr., https://goo.gl/maps/mbLbdysJxsA2
+familyworshipcenter
+Family Worship Center is at 501 Sam Houston Dr., https://goo.gl/maps/mbLbdysJxsA2
+finearts
+Fine Arts Center is at 1002 Sam Houston Dr., https://goo.gl/maps/seufnH73B882
+cdm
+Children\'s Discovery Museum is at 1205 Sam Houston Dr., https://goo.gl/maps/6NGLP3VyqRw
+childrensmuseum
+Children\'s Discovery Museum is at 1205 Sam Houston Dr., https://goo.gl/maps/6NGLP3VyqRw
+stfrancis
+St. Francis Episcopal Church is at 3002 Miori Ln., https://goo.gl/maps/UWweX7DwzmS2
+splashpad
+Lone Tree Creek Splash Pad is off of Airline Rd., between Stadium Dr. and John Stockbauer, https://goo.gl/maps/nY8HRGHtYMn
+dairytreet
+Dairy Treet is at 3808 N Laurent, https://goo.gl/maps/VjtpJgJuLxu
+resurrection
+Resurrection Cemetery is across the street from South Texas Eye Center, https://goo.gl/maps/Y8unmsKP6Q92
+postoffice
+The Post Office on Sam Houston is at 2804 Sam Houston, https://goo.gl/maps/y5K6dCRZ9g92
+queencity
+Queen City Church of God in Christ is at 701 E Warren Ave., https://goo.gl/maps/jV5dNdo9yY32
+firstpresby
+First Presbyterian Church is at 2408 N Navarro, https://goo.gl/maps/sxqposTnFi42
+healthdept
+Victoria County Public Health Department Community Garden is on Navarro and Airline, Pattie Dodson Health Center, https://goo.gl/maps/VFDSRVZMsB12
+communitygarden
+Victoria County Public Health Department Community Garden is on Navarro and Airline, Pattie Dodson Health Center, https://goo.gl/maps/VFDSRVZMsB12
+fostercreek
+WARNING! RESTRICTED GYM. DO NOT PLAY DURING BUSINESS HOURS. 504 E Crestwood, https://goo.gl/maps/FGpGPSxPBiS2
+sonrise
+WARNING! RESTRICTED GYM. DO NOT PARK HERE. PARK NEAR, BUT DO NOT BLOCK ROADS OR ENTRANCES. 1101 E Nueces, https://goo.gl/maps/GEbPLPuLX7m
+baptisttemple
+Baptist Temple Church is at 1804 N Laurent, https://goo.gl/maps/28SBm4ZF4y32
+north
+North Victoria command list: \nethellee, ethelmonument, jesus, korean, northgate, tedbreed, watertower.
+watertower
+Victoria Water Tower is behind Verizon, near North Walmart on N Navarro, https://goo.gl/maps/3RvyFHansDz
+korean
+Korean War Veterans Monument is on Harper\'s Ferry Crossing, in Green Belt Park, off of mockingbird, https://goo.gl/maps/wje4cqvdbm82
+kwvm
+Korean War Veterans Monument is on Harper\'s Ferry Crossing, in Green Belt Park, off of mockingbird, https://goo.gl/maps/wje4cqvdbm82
+tedbreed
+Ted B Reed is on Salem and Country Ln., https://goo.gl/maps/v3UVAhhXMs22
+ethellee
+Ethel Lee Tracy Park is the entrance marker to the park. Take a right onto an unnamed road at the end of Larkspur, https://goo.gl/maps/dyYrcHmo8mv
+ethelmonument
+Ethel Lee Tracy Monument is the covered area near the restrooms inside the park, https://goo.gl/maps/nA5QqvYQbjL2
+northgate
+Northgate Church of God is at 206 Broadmoor, https://goo.gl/maps/K7uPe2rTY842
+jesus
+Jesus statue is off of Mallet Dr., near Holy Family Catholic Church, https://goo.gl/maps/tNpS85hF5X82
+south
+South Victoria command list: \ncityharvest, communitycenter, legion, newman, sportscomplex, trinidad, vfw/vfwpost, zion.
+newman
+One New Man Church is at 1603 Port Lavaca Dr., https://goo.gl/maps/UaqLsnzArhN2
+sportscomplex
+Victoria Youth Sports Complex is the entrance sign off of Ben Wilson, https://goo.gl/maps/reufFGbrou82
+communitycenter
+Community Center is at 2905 E North St., https://goo.gl/maps/6RpzTotfG4v
+zion
+Zion Tabernacle is at 602 N Ben Jordan St., https://goo.gl/maps/VXBgKQ2i9zN2
+cityharvest
+City Harvest Church is on Ben Wilson and Lone Tree, https://goo.gl/maps/ZEcFBFSszuT2
+vfwpost
+VFW Post 4146 is at 2001 Lova Dr., https://goo.gl/maps/iqzFXwFT4U72
+vfw
+VFW Post 4146 is at 2001 Lova Dr., https://goo.gl/maps/iqzFXwFT4U72
+legion
+American Legion Post 166 is at 1402 E Santa Rosa St., https://goo.gl/maps/KjfbkU4LcXt
+trinidad
+Capilla De La Santisima Trinidad is at 2901 Pleasant Green Dr., https://goo.gl/maps/8tmq38kVVo12
+wheretheheckisthat
+Capilla De La Santisima Trinidad is at 2901 Pleasant Green Dr., https://goo.gl/maps/8tmq38kVVo12
