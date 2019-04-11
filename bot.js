@@ -74,7 +74,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				{
 					raidString += arrays[i] + "\n";
 				}
-				bot.sendMessage({to: channelID, message: 'found it ' + raid[i]});
+				bot.sendMessage({to: channelID, message: 'found it ' + raid[i].toString()});
 			}
 		}
      }
