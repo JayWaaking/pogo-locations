@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var gyms, raids, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
+var gyms, raid, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -40,7 +40,7 @@ bot.on('ready', function (evt) {
 		raid[i] = array[i];
 	}
 );
-/*
+
 bot.on('message', function (user, userID, channelID, message, evt) {
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
@@ -73,4 +73,3 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
      }
 });
-*/
