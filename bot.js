@@ -64,7 +64,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				bot.sendMessage({to: channelID, message: cmd});
+				bot.sendMessage({to: channelID, message: cmd + '.txt'});
 				
 			}
 		}
