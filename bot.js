@@ -65,8 +65,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			if(cmd.trim() == raid[i].trim())
 			{
 				var path = require('path');
+				var filePath = path.join('../rules/', raid[i], '.txt');
 				var message = "";
-				var array = rules.readFileSync(path.join('./rules/', raid[i], '.txt')).toString().split("\n");
+				var array = rules.readFileSync(filePath).toString().split("\n");
 				for(i in array)
 				{
 					message += array[i];
