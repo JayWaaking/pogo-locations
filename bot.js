@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var rules, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
+var rules, ruleString, gymsKey, gymsValue, raidsKey, raidsValue, raid;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -35,14 +35,20 @@ bot.on('ready', function (evt) {
 			gymsValue[i-1] = array[i];    
 	}
 	array = rules.readFileSync('./raids.txt').toString().split("\n");
-	raidsKey = [];
+	
+	raid = [];
+	for(i in array)
+	{
+		raid[i] = array[i];
+	}
+	/*raidsKey = [];
 	raidsValue = [];
 	for(i in array) {
 		if(i%2 == 0)
 			raidsKey[i] = array[i];
 		else
 			raidsValue[i-1] = array[i];    
-	}
+	}*/
 
 	
 });
@@ -64,11 +70,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				bot.sendMessage({to: channelID, message: '' + gymsValue[i].toString()});
 			}
 		}
-		for(i in raidsKey)
+		for(i in raid)
 		{
-			if(cmd.trim() == raidsKey[i].trim())
+			if(cmd.trim() == raid[i].trim())
 			{
-				bot.sendMessage({to: channelID, message: '' + raidsValue[i].toString()});
+				var raidString = ""
+				var arrays = readFileSync('./raids/' + cmd.trim() + '.txt').toString().split("\n");
+				for(i in arrays)
+				{
+					raidString += arrays[i] + "\n";
+				}
+				bot.sendMessage({to: channelID, message: '' + raidString});
 			}
 		}
      }
