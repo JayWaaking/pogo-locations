@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var gyms, raid, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
+var rules, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -19,11 +19,11 @@ bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
-	var rules = require('fs');
-	ruleString = "";
+	rules = require('fs');
 	var array = rules.readFileSync('./rules.txt').toString().split("\n");
+	ruleString = "";
 	for(i in array) {
-		ruleString += array[i].toString() + "\n"; 
+		ruleString += array[i].toString() + "\n";
 	}
 	array = rules.readFileSync('./gyms.txt').toString().split("\n");
 	gymsKey = [];
@@ -35,21 +35,27 @@ bot.on('ready', function (evt) {
 			gymsValue[i-1] = array[i];    
 	}
 	array = rules.readFileSync('./raids.txt').toString().split("\n");
-	raid = [];
+	raidsKey = [];
+	raidsValue = [];
 	for(i in array) {
-		raid[i] = array[i];
+		if(i%2 == 0)
+			raidsKey[i] = array[i];
+		else
+			raidsValue[i-1] = array[i];    
 	}
-);
 
+	
+});
 bot.on('message', function (user, userID, channelID, message, evt) {
+    // Commands start with '!'
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
         cmd = cmd.toLowerCase();
         args = args.splice(1);
-        if(cmd.trim() === 'rules')
+		if(cmd.trim() === 'rules')
 		{
-			bot.sendMessage({to: channelID, message: '' + ruleString});
+			bot.sendMessage({to: channelID, message: ruleString});
 		}
 		for(i in gymsKey)
 		{
@@ -58,17 +64,11 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				bot.sendMessage({to: channelID, message: '' + gymsValue[i].toString()});
 			}
 		}
-		for(i in raid)
+		for(i in raidsKey)
 		{
-			if(cmd.trim() == raid[i].trim())
+			if(cmd.trim() == raidsKey[i].trim())
 			{
-				var raidString = ""
-				var array = readFileSync('./raids/' + cmd.trim() + '.txt').toString().split("\n");
-				for(i in array)
-				{
-					raidString += array[i] + "\n";
-				}
-				bot.sendMessage({to: channelID, message: '' + raidString});
+				bot.sendMessage({to: channelID, message: '' + raidsValue[i].toString()});
 			}
 		}
      }
