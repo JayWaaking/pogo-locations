@@ -66,7 +66,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			if(cmd.trim() == raid[i].trim())
 			{
 				
-				bot.sendMessage({to: channelID, message: 'found it ' + raid[i].toString});
+				bot.sendMessage({to: channelID, message: 'found it ' + raid[i].toString()});
 			}
 		}
      }
