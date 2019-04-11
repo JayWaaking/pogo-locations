@@ -44,7 +44,6 @@ bot.on('ready', function (evt) {
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {
-    // Commands start with '!'
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
@@ -65,16 +64,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				var raidString = "";
-				var path = require('path');
-				var raidName = path.join(cmd, '.txt');
-				var arrays = readFileSync(path.resolve(__dirname, path.join('../', raidName))).toString().split("\n");
-				bot.sendMessage({to:channelID, message:arrays[0].toString()});
-				for(i in arrays)
-				{
-					raidString += arrays[i] + "\n";
-				}
-				bot.sendMessage({to: channelID, message: 'found it ' + raid[i].toString()});
+				var path = requires('path');
+				var raidName = path.join('/', __dirname, '/', cmd, '.txt';
+				bot.sendMessage({to: channelID, message: 'found it:: ' + raidName.toString()});
 			}
 		}
      }
