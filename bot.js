@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var rules, ruleString, gymsKey, gymsValue, raidsKey, raidsValue, raid;
+var rules, ruleString, gymsKey, gymsValue, raid;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -40,18 +40,9 @@ bot.on('ready', function (evt) {
 	for(i in array)
 	{
 		raid[i] = array[i];
-	}
-	/*raidsKey = [];
-	raidsValue = [];
-	for(i in array) {
-		if(i%2 == 0)
-			raidsKey[i] = array[i];
-		else
-			raidsValue[i-1] = array[i];    
-	}*/
-
-	
+	}	
 });
+
 bot.on('message', function (user, userID, channelID, message, evt) {
     // Commands start with '!'
     if (message.substring(0, 1) == '!') {
@@ -75,7 +66,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 			if(cmd.trim() == raid[i].trim())
 			{
 				var raidString = ""
-				var arrays = readFileSync('./raids/' + cmd.trim() + '.txt').toString().split("\n");
+				var path = './raids/' + cmd + '.txt';
+				var arrays = readFileSync(path).toString().split("\n");
 				for(i in arrays)
 				{
 					raidString += arrays[i] + "\n";
