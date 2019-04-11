@@ -68,7 +68,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				var raidString = "";
 				var path = require('path');
 				var raidName = cmd + '.txt';
-				var arrays = readFileSync(path.resolve('raids', raidName)).toString().split("\n");
+				var arrays = readFileSync(path.resolve(__dirname, '../' + raidName + '')).toString().split("\n");
 				bot.sendMessage({to:channelID, message:arrays[0].toString()});
 				for(i in arrays)
 				{
