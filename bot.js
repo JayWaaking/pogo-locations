@@ -64,9 +64,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				var path = requires('path');
-				var raidName = path.join('/', __dirname, '/', cmd, '.txt';
-				bot.sendMessage({to: channelID, message: 'found it:: ' + raidName.toString()});
+				
 			}
 		}
      }
