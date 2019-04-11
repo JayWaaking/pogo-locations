@@ -23,7 +23,7 @@ bot.on('ready', function (evt) {
 	ruleString = "";
 	var array = rules.readFileSync('./rules.txt').toString().split("\n");
 	for(i in array) {
-		ruleString += + array[i].toString() + "\n"; 
+		ruleString += array[i].toString() + "\n"; 
 	}
 	gyms = require('fs');
 	array = rules.readFileSync('./gyms.txt').toString().split("\n");
