@@ -56,7 +56,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		}
 		for(i in gymsKey)
 		{
-			if(cmd.trim() == gymsKey[i].trim())
+			if(cmd.trim() == gymsKey[i].toString().trim())
 			{
 				bot.sendMessage({to: channelID, message: '' + gymsValue[i].toString()});
 			}
