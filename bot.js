@@ -64,8 +64,10 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
+				bot.sendMessage({to: channelID, message: cmd});
 				var path = require('path');
 				var raidName = raid[i].toString() + '.txt';
+				bot.sendMessage({to: channelID, message: raidName});
 				var filePath = path.join(__dirname, 'raids', raidName);
 				var message = "";
 				var array = rules.readFileSync(filePath).toString().split("\n");
