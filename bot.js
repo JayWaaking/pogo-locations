@@ -65,7 +65,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				console.log(cmd);
 				var raidString = "";
 				var path = require('path');
 				var raidName = cmd + '.txt';
@@ -74,7 +73,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				{
 					raidString += arrays[i] + "\n";
 				}
-				bot.sendMessage({to: channelID, message: '' + raidString});
+				bot.sendMessage({to: channelID, message: cmd});
 			}
 		}
      }
