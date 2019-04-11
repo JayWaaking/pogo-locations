@@ -65,7 +65,8 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				var raidString = "";
+				bot.sendMessage({to: channelID, message: cmd});
+				/*var raidString = "";
 				var path = require('path');
 				var raidName = cmd + '.txt';
 				var arrays = readFileSync(path.resolve('/raids', raidName)).toString().split("\n");
@@ -73,7 +74,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				{
 					raidString += arrays[i] + "\n";
 				}
-				bot.sendMessage({to: channelID, message: cmd});
+				bot.sendMessage({to: channelID, message: cmd});*/
 			}
 		}
      }
