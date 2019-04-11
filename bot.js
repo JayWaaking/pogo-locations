@@ -55,7 +55,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         args = args.splice(1);
         if(cmd.trim() === 'rules')
 		{
-			bot.sendMessage({to: channelID, message: '' + rules.toString()});
+			bot.sendMessage({to: channelID, message: '' + rules[0].toString()});
 			/*
 			{
 				bot.sendMessage({to: channelID, message: '' + rulesValue[i].toString()});
