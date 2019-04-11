@@ -25,7 +25,7 @@ bot.on('ready', function (evt) {
 	for(i in array) {
 		ruleString += array[i].toString() + "\n"; 
 	}
-	gyms = require('fs');
+	//gyms = require('fs');
 	array = rules.readFileSync('./gyms.txt').toString().split("\n");
 	gymsKey = [];
 	gymsValue = [];
@@ -35,7 +35,7 @@ bot.on('ready', function (evt) {
 		else
 			gymsValue[i-1] = array[i];    
 	}
-	raids = require('fs');
+	//raids = require('fs');
 	array = rules.readFileSync('./raids.txt').toString().split("\n");
 	raids = [];
 	for(i in array) {
