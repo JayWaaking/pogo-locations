@@ -20,7 +20,7 @@ bot.on('ready', function (evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 	rules = require('fs');
-	var array = rules.readFileSync('./rules.txt').toString();
+	var array = rules.readFileSync('./rules.txt').toString().split("\n");
 	for(i in array) {
 		rules[i] = array[i]; 
 	}
