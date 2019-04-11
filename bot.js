@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var gyms, raids, rules, rulesKey, rulesValue, gymsKey, gymsValue, raidsKey, raidsValue;
+var gyms, raids, rules, gymsKey, gymsValue, raidsKey, raidsValue;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -20,14 +20,9 @@ bot.on('ready', function (evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 	rules = require('fs');
-	var array = rules.readFileSync('./rules.txt').toString().split("\n");
-	rulesKey = [];
-	rulesValue = [];
+	var array = rules.readFileSync('./rules.txt').toString();
 	for(i in array) {
-		if(i%2 == 0)
-			rulesKey[i] = array[i];
-		else
-			rulesValue[i-1] = array[i];    
+		rules[i] = array[i]; 
 	}
 	gyms = require('fs');
 	array = rules.readFileSync('./gyms.txt').toString().split("\n");
@@ -53,18 +48,18 @@ bot.on('ready', function (evt) {
 	
 });
 bot.on('message', function (user, userID, channelID, message, evt) {
-    // Commands start with '!'
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
         var cmd = args[0];
         cmd = cmd.toLowerCase();
         args = args.splice(1);
-        for(i in rulesKey)
+        if(cmd.trim() === 'rules')
 		{
-			if(cmd.trim() == rulesKey[i].trim())
+			bot.sendMessage({to: channelID, message: '' + rules.toString()});
+			/*
 			{
 				bot.sendMessage({to: channelID, message: '' + rulesValue[i].toString()});
-			}
+			}*/
 		}
 		for(i in gymsKey)
 		{
