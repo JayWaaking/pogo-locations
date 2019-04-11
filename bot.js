@@ -25,8 +25,8 @@ bot.on('ready', function (evt) {
 	for(i in array) {
 		ruleString += array[i].toString() + "\n"; 
 	}
-	//gyms = require('fs');
-	array = rules.readFileSync('./gyms.txt').toString().split("\n");
+	gyms = require('fs');
+	array = gyms.readFileSync('./gyms.txt').toString().split("\n");
 	gymsKey = [];
 	gymsValue = [];
 	for(i in array) {
@@ -35,11 +35,11 @@ bot.on('ready', function (evt) {
 		else
 			gymsValue[i-1] = array[i];    
 	}
-	//raids = require('fs');
-	array = rules.readFileSync('./raids.txt').toString().split("\n");
-	raids = [];
+	raids = require('fs');
+	array = raids.readFileSync('./raids.txt').toString().split("\n");
+	raid = [];
 	for(i in array) {
-		raids[i] = array[i];
+		raid[i] = array[i];
 	}
 );
 
@@ -60,9 +60,9 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 				bot.sendMessage({to: channelID, message: '' + gymsValue[i].toString()});
 			}
 		}
-		for(i in raids)
+		for(i in raid)
 		{
-			if(cmd.trim() == raids[i].trim())
+			if(cmd.trim() == raid[i].trim())
 			{
 				var raidString = ""
 				var array = readFileSync('./raids/' + cmd.trim() + '.txt').toString().split("\n");
