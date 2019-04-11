@@ -65,9 +65,16 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 		{
 			if(cmd.trim() == raid[i].trim())
 			{
-				var path = requires('path');
-				var raidName = path.join('/', __dirname, '/', cmd, '.txt';
-				bot.sendMessage({to: channelID, message: 'found it:: ' + raidName.toString()});
+				var raidString = "";
+				var path = require('path');
+				var raidName = path.join(cmd, '.txt');
+				var arrays = readFileSync(path.resolve(__dirname, path.join('../', raidName))).toString().split("\n");
+				bot.sendMessage({to:channelID, message:arrays[0].toString()});
+				for(i in arrays)
+				{
+					raidString += arrays[i] + "\n";
+				}
+				bot.sendMessage({to: channelID, message: 'found it ' + raid[i].toString()});
 			}
 		}
      }
