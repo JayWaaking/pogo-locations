@@ -1,7 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
-var gyms, raids, rules, gymsKey, gymsValue, raidsKey, raidsValue;
+var gyms, raids, rules, ruleString, gymsKey, gymsValue, raidsKey, raidsValue;
 
 //add bot to discord https://discordapp.com/oauth2/authorize?client_id=552241750928916496&scope=bot&permissions=0
 // Configure logger settings
@@ -22,7 +22,7 @@ bot.on('ready', function (evt) {
 	rules = require('fs');
 	var array = rules.readFileSync('./rules.txt').toString().split("\n");
 	for(i in array) {
-		rules[i] = array[i]; 
+		ruleString = array[i].toString() + "\n"; 
 	}
 	gyms = require('fs');
 	array = rules.readFileSync('./gyms.txt').toString().split("\n");
@@ -55,7 +55,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         args = args.splice(1);
         if(cmd.trim() === 'rules')
 		{
-			bot.sendMessage({to: channelID, message: '' + rules[0].toString()});
+			bot.sendMessage({to: channelID, message: '' + ruleString});
 			/*
 			{
 				bot.sendMessage({to: channelID, message: '' + rulesValue[i].toString()});
