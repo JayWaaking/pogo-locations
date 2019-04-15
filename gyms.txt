@@ -93,7 +93,7 @@ James L Wilkins is in the old cemetery on Vine St., between the Sabine/Vine and 
 jameslwilkins
 James L Wilkins is in the old cemetery on Vine St., between the Sabine/Vine and Trinity/Vine intersections, https://goo.gl/maps/Z4WsbU2YPvJ2
 midtown
-Midtown command list: \nbaptisttemple, cdm/childrensmuseum, celebration, dairytreet, finearts, firstpresby, fostercreek, fwc/familyworshipcenter, grace, guadalupe, healthdept/communitygarden, postoffice, pyramid, queencity, resurrection, sonrise, splashpad, stfrancis, uhv, unitarian/uu.
+Midtown command list: \nbaptisttemple, cdm/childrensmuseum, celebration, dairytreet, finearts, firstpresby, fostercreek, fwc/familyworshipcenter, gracelutheran, gracepresby, guadalupe, healthdept/communitygarden, postoffice, pyramid, queencity, resurrection, sonrise, splashpad, stfrancis, uhv, unitarian/uu.
 uhv
 UHV is at 3007 N Ben Wilson, https://goo.gl/maps/qmRxQdnwzfT2
 uhvwest
@@ -106,7 +106,9 @@ guadalupe
 Guadalupe Baptist is on 2601 N Ben Jordan, https://goo.gl/maps/fgRZVj3eNFE2
 celebration
 WARNING! RESTRICTED GYM. DO NOT GO DURING SCHOOL HOURS. Celebration Church is at 3310 N Ben Jordan, https://goo.gl/maps/gjEPKLHaw7r
-grace
+gracelutheran
+Grace Lutheran Church is on Locust Ave., near the Navarro and Locust Ave. intersection., https://goo.gl/maps/XFrAxEeB92G2
+gracepresby
 Grace Presbyterian Church is at 3604 N Ben Jordan St., https://goo.gl/maps/jqPzh1yYXQR2
 unitarian
 Unitarian Universalist Church is at 1701 E Crestwood Dr., https://goo.gl/maps/1J8dKUTpSDr
